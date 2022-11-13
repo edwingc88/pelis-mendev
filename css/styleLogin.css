@@ -1,0 +1,73 @@
+
+.content-login{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+    background: url('../images/fondo2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.content-login::after{
+    content: '';
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right: 0;
+    width:100%;
+    height:100%;
+    z-index:1;
+    background: rgba(0,0,0,0.6);
+    box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #000;
+}
+
+
+.showcase-login{
+    width: 100%;
+    height: 20%;
+}
+
+/* FORM LOGIN*/
+
+#content-form {
+    z-index: 20;
+   /* top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    text-align: center;
+    min-width: 450px;
+   
+}
+
+
+
+
+#form-login{
+    width: 350px;
+    margin:auto;
+    padding: 4rem .5rem; 
+}
+
+.btn-login{
+    background-color: #ef0914;
+     color:white
+ }
+
+ .btn-login:hover{
+    background-color: #ef0911;
+     color:white
+ }
+
+
+/* Footer LOGIN*/
+
+#footer-login {
+    width: 100%;
+    z-index: 50;
+    background: rgba(0,0,1,.8);
+    border-top: none; 
+}
